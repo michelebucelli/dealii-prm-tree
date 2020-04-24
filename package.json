@@ -1,0 +1,20 @@
+{
+  "name": "dealii-prm-tree",
+  "main": "./lib/dealii-prm-tree",
+  "version": "0.0.0",
+  "description": "Tree view for deal.II parameter files.",
+  "keywords": [
+      "deal.ii",
+      "dealii"
+  ],
+  "activationCommands": {
+    "atom-workspace": "dealii-prm-tree:toggle"
+  },
+  "repository": "https://github.com/michelebucelli/dealii-prm-tree",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,19 @@
+subsection Main subsection
+    set Parameter 1 = 12
+    set Parameter 2 = 34
+
+    subsection Some subsection
+        set Parameter 3 = 6
+        set Parameter 4 = 5
+    end
+
+    set Parameter 5 = 9
+end
+
+subsection Another subsection
+    set Parameter 6 = 7;
+end
+
+subsection A third subsection
+    set Parameter 8 = 9;
+end

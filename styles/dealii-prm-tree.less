@@ -1,0 +1,49 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.dealii-prm-tree {
+    overflow: scroll;
+    user-select: none;
+}
+
+.dealii-prm-tree-list {
+    padding-left: 1.5em;
+    list-style-type: none;
+}
+
+.dealii-prm-tree-section-node #name {
+    width: 100%;
+}
+
+.dealii-prm-tree-section-node #toggle {
+    cursor: pointer;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 0.25em;
+}
+
+.dealii-prm-tree-section-node.open #toggle {
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+    border-top: 0.8em solid @text-color;
+    border-bottom: none;
+}
+
+.dealii-prm-tree-section-node.closed #toggle {
+    border-left: 0.8em solid @text-color;
+    border-right: none;
+    border-top: 0.4em solid transparent;
+    border-bottom: 0.4em solid transparent;
+}
+
+.dealii-prm-tree-section-node.closed .dealii-prm-tree-list {
+    display: none;
+}
+
+.dealii-prm-tree-param-node:hover, .dealii-prm-tree-section-node #name:hover {
+    background-color: @background-color-highlight;
+}
