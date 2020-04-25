@@ -30,11 +30,16 @@
         #param {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
-        }
+            overflow: hidden;
 
-        #param #value {
-            text-align: right;
+            #value {
+                margin-left: 1em;
+                word-wrap: break-word;
+            }
+
+            #name {
+                word-wrap: break-word;
+            }
         }
     }
 }
