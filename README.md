@@ -7,7 +7,13 @@ A tree view to navigate in [deal.ii](https://www.dealii.org/) parameter files.
 - jump to the definition of parameters in the prm file by clicking on their name.
 
 ### Issues
-Please report any issues on Github.
+Please use the [Github issue tracker](https://github.com/michelebucelli/dealii-prm-tree/issues) to report bugs, request featurees or leave any feedback.
 
 ### License
 GNU GPL 3.0
+
+----
+
+Recommended package: [language-dealii-prm](https://atom.io/packages/language-dealii-prm).
+
+This package was inspired by the [Latex Tree package](https://atom.io/packages/latex-tree), both in terms of concept and implementation.
