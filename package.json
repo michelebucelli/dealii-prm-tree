@@ -29,6 +29,11 @@
           "description": "Toggle whether sections are collapsed or not when opening a new file",
           "type": "boolean",
           "default": false
+      },
+      "pathTooltipsOnHover":{
+          "title": "Show tooltips with section/parameter path on hover",
+          "type": "boolean",
+          "default":true
       }
   }
 }
