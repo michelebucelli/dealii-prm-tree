@@ -16,5 +16,19 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "configSchema":{
+      "showParameterValues":{
+          "title": "Show parameter values",
+          "description": "Toggle visibility of parameter values",
+          "type": "boolean",
+          "default": true
+      },
+      "collapseSectionsOnLoad":{
+          "title": "Collapse sections on load",
+          "description": "Toggle whether sections are collapsed or not when opening a new file",
+          "type": "boolean",
+          "default": false
+      }
   }
 }
