@@ -1,1 +1,12 @@
-
+{
+    "menu": [{
+        "label": "Packages",
+        "submenu":[{
+            "label": "deal.ii prm tree",
+            "submenu":[{
+                "label": "Toggle deal.ii prm tree",
+                "command": "dealii-prm-tree:toggle"
+            }]
+        }]
+    }]
+}
