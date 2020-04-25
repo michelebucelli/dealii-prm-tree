@@ -31,9 +31,15 @@
           "default": false
       },
       "pathTooltipsOnHover":{
-          "title": "Show tooltips with section/parameter path on hover",
+          "title": "Show tooltips with complete section or parameter path on hover",
           "type": "boolean",
-          "default":true
+          "default": true
+      },
+      "focusEditorOnClick":{
+          "title": "Focus editor when clicking on parameter",
+          "description": "Toggle whether the focus should be returned to the text editor panel when clicking on a parameter name to jump to its definition",
+          "type": "boolean",
+          "default": true
       }
   }
 }
