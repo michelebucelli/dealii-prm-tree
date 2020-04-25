@@ -1,10 +1,20 @@
-subsection Main subsection
-    set Parameter 1 = 12
+# A dummy parameter file,  with a few sections, some nested subsections and a
+# bunch of meaningless parameters as well.
+
+subsection Main subsection # A comment right after a section name...
+    set Parameter 1 = 12   # ...and a comment after a parameter.
     set Parameter 2 = 34
 
+    # A comment in a blank line, just in case.
     subsection Some subsection
         set Parameter 3 = 6
         set Parameter 4 = 5
+    end
+
+    # Here goes a subsection with accented letters in its name (bad practice!
+    # but it's still worth checking it doesn't break everything...)
+    subsection Sòmé accèntèd sùbsectìon
+        set Accènted pàràmèter = 10
     end
 
     set Parameter 5 = 9
