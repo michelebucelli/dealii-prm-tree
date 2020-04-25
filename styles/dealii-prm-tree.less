@@ -8,14 +8,31 @@
     padding: 0.75em;
     display: flex;
     flex-direction: column;
-}
 
-.dealii-prm-tree {
-    overflow: scroll;
-    user-select: none;
-    margin-top: 1em;
+    .btn-group {
+        display: flex;
 
-    .list-item:hover {
-        background-color: @background-color-highlight;
+        .btn {
+            width: 100%;
+        }
+    }
+
+    .dealii-prm-tree {
+        overflow: scroll;
+        user-select: none;
+        margin-top: 1em;
+
+        .list-item:hover {
+            background-color: @background-color-highlight;
+        }
+
+        #param {
+            display: flex;
+        }
+
+        #param #value {
+            width: 100%;
+            text-align: right;
+        }
     }
 }

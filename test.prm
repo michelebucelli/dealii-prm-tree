@@ -11,9 +11,9 @@ subsection Main subsection
 end
 
 subsection Another subsection
-    set Parameter 6 = 7;
+    set Parameter 6 = 7
 end
 
 subsection A third subsection
-    set Parameter 8 = 9;
+    set Parameter 8 = 9
 end
