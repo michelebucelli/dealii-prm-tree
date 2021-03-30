@@ -1,45 +1,44 @@
 {
-  "name": "dealii-prm-tree",
-  "main": "./lib/dealii-prm-tree",
-  "version": "0.0.0",
-  "description": "Tree view for deal.II parameter files.",
-  "keywords": [
-      "deal.ii",
-      "dealii"
-  ],
-  "activationCommands": {
-    "atom-workspace": "dealii-prm-tree:toggle"
-  },
-  "repository": "https://github.com/michelebucelli/dealii-prm-tree",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  },
-  "configSchema":{
-      "showParameterValues":{
-          "title": "Show parameter values",
-          "description": "Toggle visibility of parameter values",
-          "type": "boolean",
-          "default": true
-      },
-      "collapseSectionsOnLoad":{
-          "title": "Collapse sections on load",
-          "description": "Toggle whether sections are collapsed or not when opening a new file",
-          "type": "boolean",
-          "default": false
-      },
-      "pathTooltipsOnHover":{
-          "title": "Show tooltips with complete section or parameter path on hover",
-          "type": "boolean",
-          "default": true
-      },
-      "focusEditorOnClick":{
-          "title": "Focus editor when clicking on parameter",
-          "description": "Toggle whether the focus should be returned to the text editor panel when clicking on a parameter name to jump to its definition",
-          "type": "boolean",
-          "default": true
-      }
-  }
+    "name": "dealii-prm-tree",
+    "main": "./lib/dealii-prm-tree",
+    "version": "1.0.0",
+    "description": "Tree view for deal.II parameter files.",
+    "keywords": [
+        "deal.ii",
+        "dealii"
+    ],
+    "activationCommands": {
+        "atom-workspace": "dealii-prm-tree:toggle"
+    },
+    "repository": "https://github.com/michelebucelli/dealii-prm-tree",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {},
+    "configSchema": {
+        "showParameterValues": {
+            "title": "Show parameter values",
+            "description": "Toggle visibility of parameter values",
+            "type": "boolean",
+            "default": true
+        },
+        "collapseSectionsOnLoad": {
+            "title": "Collapse sections on load",
+            "description": "Toggle whether sections are collapsed or not when opening a new file",
+            "type": "boolean",
+            "default": false
+        },
+        "pathTooltipsOnHover": {
+            "title": "Show tooltips with complete section or parameter path on hover",
+            "type": "boolean",
+            "default": true
+        },
+        "focusEditorOnClick": {
+            "title": "Focus editor when clicking on parameter",
+            "description": "Toggle whether the focus should be returned to the text editor panel when clicking on a parameter name to jump to its definition",
+            "type": "boolean",
+            "default": true
+        }
+    }
 }
