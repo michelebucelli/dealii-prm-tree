@@ -1,8 +1,6 @@
 # dealii-prm-tree package
 A tree view to navigate [deal.ii](https://www.dealii.org/) parameter files.
 
-**Disclaimer:** this package is made and maintained by a deal.ii user; it is not maintained, reviewed, sponsored or endorsed by any of the official deal.ii developers.
-
 ### How to use
 - use the Atom command ```dealii-prm-tree:toggle``` (default shortcut: ```ctrl+alt+p```) to toggle the parameter tree panel;
 - collapse or expand subsections in the tree by clicking on their name;
